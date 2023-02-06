@@ -1,0 +1,66 @@
+/*Only affects the body*/
+body{ 
+	margin: 0;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+/*Only affects the header*/
+header{
+	background-color: #551A8B;
+	text-align: center;
+	padding-top: 50px; /*The space above and below the header to inside*/
+	padding-bottom: 25px;
+}
+/*Only affects the headings*/
+h1, h2{
+	font-family: 'Share Tech Mono', monospace; /*Uses the font, if not availabe, monospace*/
+}
+/*Only affects the h1 inside the header*/
+header h1{
+	color: white;
+	font-size: 75px;
+}
+/*Only affects the images inside the header*/
+header img{
+	border-radius: 186px;
+    width: 300px;
+    border: 12px solid #D3D3D3;
+}
+/*Affects the main*/
+main{
+	background-color: #D3D3D3;
+	max-width: 800px;
+	margin: 0 auto; /*Sets the top and bottom to 0, while sides are auto to center*/
+	padding: 20px;/*sets all to 20*/
+}
+p.caption{
+	color: black;
+	text-align: center;
+	font-style: italic;
+	margin-top: 0;
+}
+/*Affects the images inside main*/
+main img{
+	max-width: 100%;
+}
+h2{
+	font-size: 35px;
+	color: #1c5c9c;
+	margin: 40px 0 10px;
+}
+a{
+	color: #1c5c9c;
+}
+a:hover{
+	color: darkred;
+}
+footer{
+	background-color: #551A8B;
+	text-align: center;
+	color: whitesmoke;
+	padding: 20px;
+}
+footer p{
+	margin: 0;
+}
