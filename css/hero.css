@@ -8,6 +8,7 @@ body{
 /*Only affects the header*/
 header{
 	background-color: #551A8B;
+/*#551A8B*/
 	text-align: center;
 	padding-top: 50px; /*The space above and below the header to inside*/
 	padding-bottom: 25px;
@@ -19,7 +20,7 @@ h1, h2{
 /*Only affects the h1 inside the header*/
 header h1{
 	color: white;
-	font-size: 75px;
+	font-size: 80px;
 }
 /*Only affects the images inside the header*/
 header img{
@@ -28,11 +29,16 @@ header img{
     border: 12px solid #D3D3D3;
 }
 /*Affects the main*/
-main{
-	background-color: #D3D3D3;
+main div{
+	border-radius: 45px;
+	background-color: #BCCEF8;
 	max-width: 800px;
 	margin: 0 auto; /*Sets the top and bottom to 0, while sides are auto to center*/
 	padding: 20px;/*sets all to 20*/
+}
+main{
+	background-color: #A084DC;
+/*	A084DC*/
 }
 p.caption{
 	color: black;
